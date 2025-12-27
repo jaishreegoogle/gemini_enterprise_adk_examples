@@ -2,12 +2,15 @@
 
 This repository contains examples and utilities for the Gemini Enterprise ADK.
 
-## Files:
+## Project Structure
+
+Here's an overview of the key files and directories in this repository:
+
 - `.github`: Contains GitHub-specific configurations, possibly for workflows or issue templates.
-- `__init__.py`: Standard Python package initialization file.
-- `agent.py`: Likely contains the core logic for an agent or a part of the ADK.
+- `__init__.py`: This is a standard Python package initialization file, typically used to mark a directory as a Python package.
+- `agent.py`: This file defines the `GitHubExpert` AI agent, configuring its name, description, the LiteLlm model it uses, and a detailed instruction set for its documentation workflow, including tool usage for GitHub interactions.
 - `localtest.md`: A markdown file, possibly for local testing documentation or notes.
-- `test server.py`: Suggests a test server implementation, likely in Python.
+- `test server.py`: This file initializes an MCP server and defines several tools for interacting with the GitHub API, such as reading file content, getting project dependencies, retrieving repository information, listing repository contents, analyzing and suggesting READMEs, finding README targets, creating branches, committing files, and creating pull requests.
 
 ## Getting Started
 
