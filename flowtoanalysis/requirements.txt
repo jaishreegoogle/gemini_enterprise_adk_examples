@@ -1,0 +1,5 @@
+google-cloud-aiplatform>=1.135.0
+google-adk>=1.22.0
+google-cloud-storage
+spire-doc
+spire-presentation
