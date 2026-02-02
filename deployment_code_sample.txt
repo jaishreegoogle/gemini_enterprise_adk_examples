@@ -1,0 +1,1 @@
+adk deploy agent_engine --project=$PROJECT_ID --region=us-central1 --display_name="a2asubagentreverserv1" --staging_bucket="gs://$PROJECT_ID-staging" $agent_foldername_with_path
