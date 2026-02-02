@@ -1,0 +1,15 @@
+fastmcp
+PyGithub
+requests
+litellm
+# Essential for SSE/HTTP support
+uvicorn
+starlette
+cloudpickle
+
+##### jan 8 2026
+
+
+
+
+
